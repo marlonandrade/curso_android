@@ -7,7 +7,10 @@ import java.util.Map;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
 	
@@ -50,5 +53,15 @@ public class MainActivity extends ListActivity {
         int[] to = { R.id.versao, R.id.data, R.id.nome_versao };
         
         setListAdapter(new SimpleAdapter(this, dados, R.layout.custom_list_row, from, to));
+    }
+    
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+    	super.onListItemClick(l, v, position, id);
+    	
+    	Object item = l.getAdapter().getItem(position);
+    	
+    	Toast toast = Toast.makeText(this, "Clicado em: " + item.toString(), 3);
+    	toast.show();
     }
 }
