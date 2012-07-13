@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Controle Financeiro</string>
+    <string name="title_activity_formulario_conta">FormularioContaActivity</string>
+    <string name="title_activity_formulario_categoria">FormularioCategoriaActivity</string>
+    <string name="title_activity_formulario_forma_pagamento">FormularioFormaPagamentoActivity</string>
+    <string name="title_activity_listagem_contas">ListagemContasActivity</string>
+    <string name="title_activity_listagem_categorias">ListagemCategoriasActivity</string>
+    <string name="title_activity_listagem_formas_pagamento">ListagemFormasPagamentoActivity</string>
+    <string name="nome_conta">Nome da conta</string>
+    <string name="cor_conta">Cor</string>
+    <string name="saldo_inicial_conta">Saldo inicial</string>
+    <string name="nenhuma_conta">Nenhuma conta!</string>
+    <string name="conta_adicionar">Adicionar nova conta</string>
+    <string name="nome_categoria">Nome da categoria</string>
+    <string name="nenhuma_categoria">Nenhuma categoria!</string>
+    <string name="categoria_adicionar">Adicionar nova categoria</string>
+    <string name="nome_forma_pagamento">Nome da forma de pagamento</string>
+    <string name="nenhuma_forma_pagamento">Nenhuma forma de pagamento!</string>
+    <string name="forma_pagamento_adicionar">Adicionar nova forma de pagamento</string>
+    <string name="confirmar_button">Confirmar</string>
+    <string name="cancelar_button">Cancelar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home_button_contas_title">Contas</string>
+    <string name="home_button_categorias_title">Categorias</string>
+    <string name="home_button_formas_pagamento_title">Formas de Pagamento</string>
+    <string name="home_button_sobre_title">Sobre</string>
+
+</resources>

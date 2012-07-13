@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_conta_adicionar"
+        android:title="@string/conta_adicionar"
+        android:orderInCategory="100" />
+</menu>

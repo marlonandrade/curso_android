@@ -8,6 +8,8 @@ import java.util.Map;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
@@ -53,6 +55,18 @@ public class MainActivity extends ListActivity {
         int[] to = { R.id.versao, R.id.data, R.id.nome_versao };
         
         setListAdapter(new SimpleAdapter(this, dados, R.layout.custom_list_row, from, to));
+        
+        ListView listView = getListView();
+        listView.setOnItemLongClickListener(new OnItemLongClickListener() {
+
+			@Override
+			public boolean onItemLongClick(AdapterView<?> av, View view,
+					int position, long id) {
+				Toast toast = Toast.makeText(getListView().getContext(), "Bla" + position, Toast.LENGTH_LONG);
+				toast.show();
+				return false;
+			}
+		});
     }
     
     @Override

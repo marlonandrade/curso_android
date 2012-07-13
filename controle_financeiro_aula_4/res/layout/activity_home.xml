@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        
+       	<Button android:id="@+id/home_button_contas"
+       	    style="@style/HomeButton"
+       	    android:text="@string/home_button_contas_title"
+       	    android:drawableTop="@drawable/home_button_contas_icon"
+       	    android:onClick="contasClicked" /> 
+       	
+       	<Button android:id="@+id/home_button_categorias"
+       	    style="@style/HomeButton"
+       	    android:text="@string/home_button_categorias_title"
+       	    android:drawableTop="@drawable/home_button_categorias_icon"
+       	    android:onClick="categoriasClicked" />
+       	
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+       	
+       	<Button android:id="@+id/home_button_formas_pagamento"
+       	    style="@style/HomeButton"
+       	    android:text="@string/home_button_formas_pagamento_title"
+       	    android:drawableTop="@drawable/home_button_formas_pagamento_icon"
+       	    android:onClick="formasPagamentoClicked" /> 
+       	
+       	<Button android:id="@+id/home_button_sobre"
+       	    style="@style/HomeButton"
+       	    android:text="@string/home_button_sobre_title"
+       	    android:drawableTop="@drawable/home_button_sobre_icon"
+       	    android:onClick="sobreClicked" />
+       	
+    </LinearLayout>
+    
+ </LinearLayout>

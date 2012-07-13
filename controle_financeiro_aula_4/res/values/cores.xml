@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cores_prompt">Escolha uma cor</string>
+    <string-array name="cores_array">
+        <item>Amarelo</item>
+        <item>Azul</item>
+        <item>Vermelho</item>
+        <item>Verde</item>
+        <item>Preto</item>
+    </string-array>
+</resources>
