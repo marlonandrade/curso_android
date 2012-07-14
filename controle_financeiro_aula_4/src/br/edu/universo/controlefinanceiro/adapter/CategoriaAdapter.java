@@ -26,7 +26,8 @@ public class CategoriaAdapter extends ArrayAdapter<Categoria> {
 
 		Categoria categoria = getItem(position);
 
-		TextView textView = (TextView) view.findViewById(R.id.row_categoria_nome);
+		TextView textView = (TextView) view
+				.findViewById(R.id.row_categoria_nome);
 		textView.setText(categoria.getNome());
 
 		return view;

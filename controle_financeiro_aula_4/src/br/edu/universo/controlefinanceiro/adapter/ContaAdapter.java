@@ -35,7 +35,7 @@ public class ContaAdapter extends ArrayAdapter<Conta> {
 
 		TextView textSaldo = (TextView) view.findViewById(R.id.row_conta_saldo);
 		textSaldo.setText(String.format("R$ %.2f", conta.getSaldo()));
-		
+
 		if (conta.getSaldo() < 0d) {
 			textSaldo.setTextColor(Color.RED);
 		} else {
