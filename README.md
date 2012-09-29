@@ -39,3 +39,10 @@ Conceitos abordados:
 - Modificação de temas (styles.xml).
 - Criação de estilos para serem re-utilizados (styles.xml).
 - Criação de Menus (menu).
+
+### Calculadora (calculadora)
+App de exemplo de posicionamento de layouts e utilizadas para mostrar a interação
+entre botões do layout e a Activity .java.  
+Lógica da calculadora dentro da Activity feita proposicionalmente para simplificar 
+a construção e apresentação para pessoas com pouco ou nenhum conhecimento em Java.  
+- Linear Layout
